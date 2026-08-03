@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:30px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    background:#fff;
+    border-radius:10px;
+    padding:40px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+h1{
+    background:#0f7d75;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    border-radius:8px;
+    font-size:42px;
+    margin-bottom:35px;
+    letter-spacing:2px;
+}
+
+label{
+    display:block;
+    margin-top:20px;
+    margin-bottom:8px;
+    font-size:18px;
+    font-weight:bold;
+    color:#222;
+}
+
+label span{
+    color:red;
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:17px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border:2px solid #0f7d75;
+}
+
+h2{
+    margin-top:35px;
+    margin-bottom:20px;
+    color:#0f7d75;
+    font-size:38px;
+    border-left:6px solid #0f7d75;
+    padding-left:12px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:30px;
+}
+
+table th{
+    background:#0f7d75;
+    color:white;
+    padding:15px;
+    font-size:20px;
+}
+
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+table td input{
+    border:none;
+    width:100%;
+    padding:10px;
+    font-size:16px;
+}
+
+table td input:focus{
+    border:none;
+    outline:none;
+}
+
+input[type=file]{
+    padding:10px;
+}
+
+.buttons{
+    text-align:center;
+    margin-top:35px;
+}
+
+button{
+    border:none;
+    padding:14px 35px;
+    font-size:20px;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+    margin:10px;
+}
+
+.submit{
+    background:#1ba94c;
+}
+
+.submit:hover{
+    background:#14853b;
+}
+
+.reset{
+    background:#d92525;
+}
+
+.reset:hover{
+    background:#b01b1b;
+}
+
+/* Success Page */
+
+.success{
+    color:#17a74a;
+    text-align:center;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.message{
+    text-align:center;
+    font-size:22px;
+    margin-bottom:25px;
+    color:#444;
+}
+
+.section-title{
+    background:#0f7d75;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:30px;
+    border-radius:8px;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.output-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.output-table th{
+    background:#0f7d75;
+    color:white;
+    padding:14px;
+}
+
+.output-table td{
+    border:1px solid #ccc;
+    padding:14px;
+}
+
+.output-table tr:nth-child(even){
+    background:#eef9f9;
+}
